@@ -26,7 +26,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#BF2025] text-white p-4 rounded-[0.5rem] transition-all">
+    <nav className="bg-[#BF2025] text-white p-2 rounded-[0.5rem] transition-all flex flex-col ease-linear">
       <div className="flex items-center justify-between">
         <button
           className="lg:hidden text-2xl focus:outline-none"
@@ -45,10 +45,9 @@ const Navbar = () => {
       )}
 
       {/* Desktop menu */}
-      <ul className="hidden lg:flex mt-4">
-        <li className="mx-4">Menu Item 1</li>
-        <li className="mx-4">Menu Item 2</li>
-        <li className="mx-4">Menu Item 3</li>
+      <ul className="hidden lg:flex my-1">
+        <li className="mx-4 hover:text-black font-bold hover:cursor-pointer">Rules & Regulations</li>
+        <li className="mx-4 hover:cursor-pointer hover:bg-white hover:text-black font-montserrat font-bold hover:flex hover:flex-row hover:justify-start hover:px-5 hover:items-center rounded-[1000px] hover:transition hover:ease-linear hover:translate-x-1">Login</li>
       </ul>
     </nav>
   );
