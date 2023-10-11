@@ -20,11 +20,10 @@ const App = () => {
     <div>
       <div className='Navbar w-screen px-10 py-5 flex flex-row justify-between items-center bg-black'>
         <img src='../zeelogo.svg' />
-        <div className='but-con flex flex-row gap-3 justify-center items-center'>
-          {/* <button className='text-white font-semibold font-montserrat hover:bg-white hover:text-black px-5 py-3 rounded-[50px] hover:transition hover:ease-linear text-[12px]'>Rules & Regulations</button>
-          <button className='font-semibold font-montserrat bg-white hover:text-white hover:bg-[#C91A07] px-5 py-2 rounded-[50px] hover:border-none hover:transition hover:ease-linear text-[12px]'>Login</button> */}
+        <div className='but-con flex flex-row gap-3 justify-center items-center z-50 fixed top-5 right-5'>
           <Navbar />
-        </div></div>
+        </div>
+      </div>
       <div className="hero-container w-screen">
         <div className="button-con w-screen my-0 flex flex-col justify-center items-center bg-[#da6d61] py-5">
           <button className="bg-[#C91A07] text-white font-montserrat font-semibold px-5 py-2 text-xl rounded-[10px] hover:bg-black hover:transition hover:ease-linear hover:translate-y-3">
